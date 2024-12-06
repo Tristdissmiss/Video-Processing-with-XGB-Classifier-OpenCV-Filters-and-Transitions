@@ -53,16 +53,15 @@ Run this to generate predictions made by the XGB classifier:
    ```
 
    **Classification Report for XGBoost:**
-
    ```plaintext
               precision    recall  f1-score   support
 
            0       0.87      0.90      0.89     23037
            1       0.53      0.46      0.49      5578
 
-    accuracy                           0.81     28615
-   macro avg       0.70      0.68      0.69     28615
-weighted avg       0.80      0.81      0.81     28615
+    accuracy                            0.81     28615
+    macro avg       0.70      0.68      0.69     28615
+    weighted avg    0.80      0.81      0.81     28615
    ```
 
    **Output:** XGBoost predictions saved to `predictionsXGB.csv`.
